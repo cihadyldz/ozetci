@@ -1,0 +1,36 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="style.css"><title></title></head>
+<body><div id="page">
+<h1 data-i18n="optTitle"></h1>
+<label for="preset" data-i18n="optPreset"></label>
+<select id="preset">
+  <option value="" data-i18n="presetNone"></option>
+  <option value="ovh" data-i18n="presetOvh"></option>
+  <option value="groq">Groq</option>
+  <option value="openrouter">OpenRouter</option>
+  <option value="cerebras">Cerebras</option>
+  <option value="gemini">Google Gemini (AI Studio)</option>
+  <option value="ollama" data-i18n="presetOllama"></option>
+</select>
+<label for="provider" data-i18n="optProvider"></label>
+<select id="provider">
+  <option value="ollama">Ollama</option>
+  <option value="openai" data-i18n="providerOpenai"></option>
+</select>
+<label for="baseUrl" data-i18n="optUrl"></label>
+<input id="baseUrl" placeholder="http://localhost:11434" style="width:100%">
+<p class="hint" data-i18n="urlHint"></p>
+<label for="apiKey" data-i18n="optKey"></label>
+<input id="apiKey" type="password" style="width:100%" autocomplete="off">
+<label for="model" data-i18n="optModel"></label>
+<div class="row"><select id="model"></select><button id="load" data-i18n="loadModels"></button></div>
+<label for="lang" data-i18n="optLang"></label>
+<input id="lang" style="width:100%">
+<div class="bar" style="margin-top:18px"><button id="save" class="primary" data-i18n="save"></button></div>
+<p id="status" role="status"></p>
+<h2 data-i18n="supportTitle"></h2>
+<p class="hint" style="font-size:14px" data-i18n="supportText"></p>
+<p><a class="support" href="https://buymeacoffee.com/cihad.yildiz" target="_blank" rel="noopener noreferrer">☕ Buy Me a Coffee</a></p>
+<p class="hint" data-i18n="privacyHint"></p>
+</div><script type="module" src="options.js"></script></body></html>

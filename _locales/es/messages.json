@@ -1,0 +1,197 @@
+{
+ "extName": {
+  "message": "Resumidor LLM"
+ },
+ "extDescription": {
+  "message": "Resume páginas y texto seleccionado con tu propio LLM local o remoto (Ollama, compatible con OpenAI). Sin cuenta ni rastreo."
+ },
+ "actionTitle": {
+  "message": "Resumir página"
+ },
+ "menuSummary": {
+  "message": "Resumir selección"
+ },
+ "menuSimple": {
+  "message": "Explicar selección de forma sencilla"
+ },
+ "menuTranslate": {
+  "message": "Traducir selección"
+ },
+ "errCantRead": {
+  "message": "No se puede leer esta página (las páginas chrome://, la Web Store y el visor de PDF no se pueden leer)."
+ },
+ "panelTitle": {
+  "message": "Resumidor"
+ },
+ "settings": {
+  "message": "Ajustes"
+ },
+ "modeLabel": {
+  "message": "Acción"
+ },
+ "modeSummary": {
+  "message": "Resumen corto"
+ },
+ "modeBullets": {
+  "message": "Puntos clave"
+ },
+ "modeSimple": {
+  "message": "Explicar fácil"
+ },
+ "modeTranslate": {
+  "message": "Traducir"
+ },
+ "run": {
+  "message": "Resumir página"
+ },
+ "stop": {
+  "message": "Detener"
+ },
+ "copy": {
+  "message": "Copiar"
+ },
+ "support": {
+  "message": "☕ Apoyar"
+ },
+ "noAccess": {
+  "message": "Sin permiso para leer esta pestaña. Haz clic en el icono de la extensión (o pulsa Alt+S) y se leerá y resumirá la página."
+ },
+ "tabNotFound": {
+  "message": "No se encontró ninguna pestaña activa."
+ },
+ "pickModel": {
+  "message": "Primero elige un modelo en Ajustes."
+ },
+ "readingPage": {
+  "message": "Leyendo la página…"
+ },
+ "notEnoughText": {
+  "message": "No hay suficiente texto para resumir."
+ },
+ "longText": {
+  "message": "El texto es largo; se procesa la primera parte…"
+ },
+ "modelReplying": {
+  "message": "El modelo está respondiendo…"
+ },
+ "done": {
+  "message": "Listo."
+ },
+ "doneCut": {
+  "message": "Listo (solo se resumió la primera parte del texto largo)."
+ },
+ "stopped": {
+  "message": "Detenido."
+ },
+ "copied": {
+  "message": "Copiado."
+ },
+ "unreachable": {
+  "message": "No se puede conectar con el servidor. Revisa la dirección y el permiso en Ajustes."
+ },
+ "optTitle": {
+  "message": "Ajustes del servidor"
+ },
+ "optPreset": {
+  "message": "Preajuste"
+ },
+ "presetNone": {
+  "message": "Elegir (opcional)"
+ },
+ "presetOvh": {
+  "message": "OVHcloud (sin clave API, gratis)"
+ },
+ "presetOllama": {
+  "message": "Ollama local"
+ },
+ "optProvider": {
+  "message": "Tipo de servidor"
+ },
+ "providerOpenai": {
+  "message": "Compatible con OpenAI (vLLM, LM Studio, llama.cpp, LiteLLM…)"
+ },
+ "optUrl": {
+  "message": "Dirección del servidor"
+ },
+ "urlHint": {
+  "message": "Ejemplo: https://llm.ejemplo.com o una dirección VPN como Tailscale. No expongas Ollama directamente a internet."
+ },
+ "optKey": {
+  "message": "Clave API (opcional)"
+ },
+ "optModel": {
+  "message": "Modelo"
+ },
+ "loadModels": {
+  "message": "Cargar modelos"
+ },
+ "optLang": {
+  "message": "Idioma de salida (vacío = idioma del navegador)"
+ },
+ "save": {
+  "message": "Guardar y probar"
+ },
+ "supportTitle": {
+  "message": "Apoyo"
+ },
+ "supportText": {
+  "message": "Gratis y sin anuncios. Si te resulta útil, puedes apoyarlo de forma voluntaria; ninguna función depende de ello."
+ },
+ "privacyHint": {
+  "message": "El contenido de las páginas solo se envía al servidor que indiques arriba. No se envía nada a ningún otro sitio."
+ },
+ "badUrl": {
+  "message": "Introduce una dirección válida (debe empezar por http:// o https://)."
+ },
+ "noPermission": {
+  "message": "No se concedió acceso a esta dirección."
+ },
+ "connecting": {
+  "message": "Conectando…"
+ },
+ "savedFound": {
+  "message": "Guardado. Se encontraron $COUNT$ modelos.",
+  "placeholders": {
+   "count": {
+    "content": "$1"
+   }
+  }
+ },
+ "foundPick": {
+  "message": "Se encontraron $COUNT$ modelos. Elige uno y pulsa Guardar.",
+  "placeholders": {
+   "count": {
+    "content": "$1"
+   }
+  }
+ },
+ "unreachableOpt": {
+  "message": "No se puede conectar con el servidor. Revisa la dirección, la red y HTTPS/certificado."
+ },
+ "presetFilled": {
+  "message": "Dirección completada. Pega tu clave API y pulsa Cargar modelos."
+ },
+ "presetFilledNoKey": {
+  "message": "Dirección completada. No hace falta clave; pulsa Cargar modelos."
+ },
+ "err401": {
+  "message": "No autorizado (401): la clave API es incorrecta o falta."
+ },
+ "err403": {
+  "message": "Acceso denegado (403): revisa la clave, la región o los ajustes del servidor."
+ },
+ "err404": {
+  "message": "No encontrado (404): la dirección o el nombre del modelo pueden ser incorrectos."
+ },
+ "err429": {
+  "message": "Límite de solicitudes alcanzado (429): espera un poco o prueba otro modelo o proveedor."
+ },
+ "errServer": {
+  "message": "Error del servidor: HTTP $CODE$",
+  "placeholders": {
+   "code": {
+    "content": "$1"
+   }
+  }
+ }
+}

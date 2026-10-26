@@ -1,0 +1,197 @@
+{
+ "extName": {
+  "message": "LLM-Zusammenfasser"
+ },
+ "extDescription": {
+  "message": "Fasse Seiten und markierten Text mit deinem lokalen oder entfernten LLM zusammen (Ollama, OpenAI-kompatibel). Ohne Konto."
+ },
+ "actionTitle": {
+  "message": "Seite zusammenfassen"
+ },
+ "menuSummary": {
+  "message": "Auswahl zusammenfassen"
+ },
+ "menuSimple": {
+  "message": "Auswahl einfach erklären"
+ },
+ "menuTranslate": {
+  "message": "Auswahl übersetzen"
+ },
+ "errCantRead": {
+  "message": "Diese Seite kann nicht gelesen werden (chrome://-Seiten, der Web Store und der PDF-Viewer sind nicht lesbar)."
+ },
+ "panelTitle": {
+  "message": "Zusammenfasser"
+ },
+ "settings": {
+  "message": "Einstellungen"
+ },
+ "modeLabel": {
+  "message": "Aktion"
+ },
+ "modeSummary": {
+  "message": "Kurze Zusammenfassung"
+ },
+ "modeBullets": {
+  "message": "Stichpunkte"
+ },
+ "modeSimple": {
+  "message": "Einfach erklären"
+ },
+ "modeTranslate": {
+  "message": "Übersetzen"
+ },
+ "run": {
+  "message": "Seite zusammenfassen"
+ },
+ "stop": {
+  "message": "Stopp"
+ },
+ "copy": {
+  "message": "Kopieren"
+ },
+ "support": {
+  "message": "☕ Unterstützen"
+ },
+ "noAccess": {
+  "message": "Keine Berechtigung für diesen Tab. Klicke auf das Erweiterungssymbol (oder drücke Alt+S), dann wird die Seite gelesen und zusammengefasst."
+ },
+ "tabNotFound": {
+  "message": "Kein aktiver Tab gefunden."
+ },
+ "pickModel": {
+  "message": "Wähle zuerst in den Einstellungen ein Modell."
+ },
+ "readingPage": {
+  "message": "Seite wird gelesen…"
+ },
+ "notEnoughText": {
+  "message": "Nicht genug Text zum Zusammenfassen."
+ },
+ "longText": {
+  "message": "Der Text ist lang; der erste Teil wird verarbeitet…"
+ },
+ "modelReplying": {
+  "message": "Das Modell antwortet…"
+ },
+ "done": {
+  "message": "Fertig."
+ },
+ "doneCut": {
+  "message": "Fertig (nur der erste Teil des langen Textes wurde zusammengefasst)."
+ },
+ "stopped": {
+  "message": "Gestoppt."
+ },
+ "copied": {
+  "message": "Kopiert."
+ },
+ "unreachable": {
+  "message": "Server nicht erreichbar. Prüfe Adresse und Berechtigung in den Einstellungen."
+ },
+ "optTitle": {
+  "message": "Servereinstellungen"
+ },
+ "optPreset": {
+  "message": "Voreinstellung"
+ },
+ "presetNone": {
+  "message": "Auswählen (optional)"
+ },
+ "presetOvh": {
+  "message": "OVHcloud (ohne API-Schlüssel, kostenlos)"
+ },
+ "presetOllama": {
+  "message": "Lokales Ollama"
+ },
+ "optProvider": {
+  "message": "Servertyp"
+ },
+ "providerOpenai": {
+  "message": "OpenAI-kompatibel (vLLM, LM Studio, llama.cpp, LiteLLM…)"
+ },
+ "optUrl": {
+  "message": "Serveradresse"
+ },
+ "urlHint": {
+  "message": "Beispiel: https://llm.beispiel.de oder eine VPN-Adresse wie Tailscale. Setze Ollama nicht direkt dem Internet aus."
+ },
+ "optKey": {
+  "message": "API-Schlüssel (optional)"
+ },
+ "optModel": {
+  "message": "Modell"
+ },
+ "loadModels": {
+  "message": "Modelle laden"
+ },
+ "optLang": {
+  "message": "Ausgabesprache (leer = Browsersprache)"
+ },
+ "save": {
+  "message": "Speichern und testen"
+ },
+ "supportTitle": {
+  "message": "Unterstützung"
+ },
+ "supportText": {
+  "message": "Kostenlos und werbefrei. Wenn es dir hilft, kannst du freiwillig unterstützen; keine Funktion hängt davon ab."
+ },
+ "privacyHint": {
+  "message": "Seiteninhalte werden nur an den oben angegebenen Server gesendet. Sonst wird nichts irgendwohin übertragen."
+ },
+ "badUrl": {
+  "message": "Gib eine gültige Adresse ein (muss mit http:// oder https:// beginnen)."
+ },
+ "noPermission": {
+  "message": "Der Zugriff auf diese Adresse wurde nicht erteilt."
+ },
+ "connecting": {
+  "message": "Verbinde…"
+ },
+ "savedFound": {
+  "message": "Gespeichert. $COUNT$ Modelle gefunden.",
+  "placeholders": {
+   "count": {
+    "content": "$1"
+   }
+  }
+ },
+ "foundPick": {
+  "message": "$COUNT$ Modelle gefunden. Wähle eines und klicke auf Speichern.",
+  "placeholders": {
+   "count": {
+    "content": "$1"
+   }
+  }
+ },
+ "unreachableOpt": {
+  "message": "Server nicht erreichbar. Prüfe Adresse, Netzwerk und HTTPS/Zertifikat."
+ },
+ "presetFilled": {
+  "message": "Adresse eingetragen. Füge deinen API-Schlüssel ein und klicke auf Modelle laden."
+ },
+ "presetFilledNoKey": {
+  "message": "Adresse eingetragen. Kein Schlüssel nötig; klicke auf Modelle laden."
+ },
+ "err401": {
+  "message": "Nicht autorisiert (401): API-Schlüssel falsch oder fehlt."
+ },
+ "err403": {
+  "message": "Zugriff verweigert (403): prüfe Schlüssel, Region oder Servereinstellungen."
+ },
+ "err404": {
+  "message": "Nicht gefunden (404): Adresse oder Modellname könnte falsch sein."
+ },
+ "err429": {
+  "message": "Anfragelimit erreicht (429): warte kurz oder probiere ein anderes Modell oder einen anderen Anbieter."
+ },
+ "errServer": {
+  "message": "Serverfehler: HTTP $CODE$",
+  "placeholders": {
+   "code": {
+    "content": "$1"
+   }
+  }
+ }
+}

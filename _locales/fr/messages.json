@@ -1,0 +1,197 @@
+{
+ "extName": {
+  "message": "Résumeur LLM"
+ },
+ "extDescription": {
+  "message": "Résumez des pages et du texte sélectionné avec votre propre LLM local ou distant (Ollama, compatible OpenAI). Sans compte ni suivi."
+ },
+ "actionTitle": {
+  "message": "Résumer la page"
+ },
+ "menuSummary": {
+  "message": "Résumer la sélection"
+ },
+ "menuSimple": {
+  "message": "Expliquer simplement la sélection"
+ },
+ "menuTranslate": {
+  "message": "Traduire la sélection"
+ },
+ "errCantRead": {
+  "message": "Impossible de lire cette page (les pages chrome://, le Web Store et la visionneuse PDF ne sont pas lisibles)."
+ },
+ "panelTitle": {
+  "message": "Résumeur"
+ },
+ "settings": {
+  "message": "Paramètres"
+ },
+ "modeLabel": {
+  "message": "Action"
+ },
+ "modeSummary": {
+  "message": "Résumé court"
+ },
+ "modeBullets": {
+  "message": "Points clés"
+ },
+ "modeSimple": {
+  "message": "Expliquer simplement"
+ },
+ "modeTranslate": {
+  "message": "Traduire"
+ },
+ "run": {
+  "message": "Résumer la page"
+ },
+ "stop": {
+  "message": "Arrêter"
+ },
+ "copy": {
+  "message": "Copier"
+ },
+ "support": {
+  "message": "☕ Soutenir"
+ },
+ "noAccess": {
+  "message": "Pas d'autorisation pour lire cet onglet. Cliquez sur l'icône de l'extension (ou appuyez sur Alt+S) : la page sera lue et résumée."
+ },
+ "tabNotFound": {
+  "message": "Aucun onglet actif trouvé."
+ },
+ "pickModel": {
+  "message": "Choisissez d'abord un modèle dans les paramètres."
+ },
+ "readingPage": {
+  "message": "Lecture de la page…"
+ },
+ "notEnoughText": {
+  "message": "Pas assez de texte à résumer."
+ },
+ "longText": {
+  "message": "Le texte est long ; traitement de la première partie…"
+ },
+ "modelReplying": {
+  "message": "Le modèle répond…"
+ },
+ "done": {
+  "message": "Terminé."
+ },
+ "doneCut": {
+  "message": "Terminé (seule la première partie du long texte a été résumée)."
+ },
+ "stopped": {
+  "message": "Arrêté."
+ },
+ "copied": {
+  "message": "Copié."
+ },
+ "unreachable": {
+  "message": "Serveur injoignable. Vérifiez l'adresse et l'autorisation dans les paramètres."
+ },
+ "optTitle": {
+  "message": "Paramètres du serveur"
+ },
+ "optPreset": {
+  "message": "Préréglage"
+ },
+ "presetNone": {
+  "message": "Choisir (facultatif)"
+ },
+ "presetOvh": {
+  "message": "OVHcloud (sans clé API, gratuit)"
+ },
+ "presetOllama": {
+  "message": "Ollama local"
+ },
+ "optProvider": {
+  "message": "Type de serveur"
+ },
+ "providerOpenai": {
+  "message": "Compatible OpenAI (vLLM, LM Studio, llama.cpp, LiteLLM…)"
+ },
+ "optUrl": {
+  "message": "Adresse du serveur"
+ },
+ "urlHint": {
+  "message": "Exemple : https://llm.exemple.fr ou une adresse VPN comme Tailscale. N'exposez pas Ollama directement sur Internet."
+ },
+ "optKey": {
+  "message": "Clé API (facultatif)"
+ },
+ "optModel": {
+  "message": "Modèle"
+ },
+ "loadModels": {
+  "message": "Charger les modèles"
+ },
+ "optLang": {
+  "message": "Langue de sortie (vide = langue du navigateur)"
+ },
+ "save": {
+  "message": "Enregistrer et tester"
+ },
+ "supportTitle": {
+  "message": "Soutien"
+ },
+ "supportText": {
+  "message": "Gratuit et sans publicité. Si l'extension vous est utile, vous pouvez la soutenir librement ; aucune fonction n'en dépend."
+ },
+ "privacyHint": {
+  "message": "Le contenu des pages n'est envoyé qu'au serveur indiqué ci-dessus. Rien n'est envoyé ailleurs."
+ },
+ "badUrl": {
+  "message": "Saisissez une adresse valide (elle doit commencer par http:// ou https://)."
+ },
+ "noPermission": {
+  "message": "L'accès à cette adresse n'a pas été accordé."
+ },
+ "connecting": {
+  "message": "Connexion…"
+ },
+ "savedFound": {
+  "message": "Enregistré. $COUNT$ modèles trouvés.",
+  "placeholders": {
+   "count": {
+    "content": "$1"
+   }
+  }
+ },
+ "foundPick": {
+  "message": "$COUNT$ modèles trouvés. Choisissez-en un puis cliquez sur Enregistrer.",
+  "placeholders": {
+   "count": {
+    "content": "$1"
+   }
+  }
+ },
+ "unreachableOpt": {
+  "message": "Serveur injoignable. Vérifiez l'adresse, le réseau et HTTPS/certificat."
+ },
+ "presetFilled": {
+  "message": "Adresse renseignée. Collez votre clé API puis cliquez sur Charger les modèles."
+ },
+ "presetFilledNoKey": {
+  "message": "Adresse renseignée. Aucune clé nécessaire ; cliquez sur Charger les modèles."
+ },
+ "err401": {
+  "message": "Non autorisé (401) : la clé API est incorrecte ou manquante."
+ },
+ "err403": {
+  "message": "Accès refusé (403) : vérifiez la clé, la région ou les paramètres du serveur."
+ },
+ "err404": {
+  "message": "Introuvable (404) : l'adresse ou le nom du modèle est peut-être incorrect."
+ },
+ "err429": {
+  "message": "Limite de requêtes atteinte (429) : patientez ou essayez un autre modèle ou fournisseur."
+ },
+ "errServer": {
+  "message": "Erreur du serveur : HTTP $CODE$",
+  "placeholders": {
+   "code": {
+    "content": "$1"
+   }
+  }
+ }
+}

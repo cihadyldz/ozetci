@@ -1,0 +1,197 @@
+{
+ "extName": {
+  "message": "LLM Özetçi"
+ },
+ "extDescription": {
+  "message": "Sayfaları ve seçili metni kendi yerel veya uzak LLM sunucunla özetle (Ollama, OpenAI uyumlu). Hesap yok, takip yok."
+ },
+ "actionTitle": {
+  "message": "Sayfayı özetle"
+ },
+ "menuSummary": {
+  "message": "Seçili metni özetle"
+ },
+ "menuSimple": {
+  "message": "Seçili metni basitçe anlat"
+ },
+ "menuTranslate": {
+  "message": "Seçili metni çevir"
+ },
+ "errCantRead": {
+  "message": "Bu sayfa okunamıyor (chrome:// sayfaları, Web Store ve PDF görüntüleyici okunamaz)."
+ },
+ "panelTitle": {
+  "message": "Özetçi"
+ },
+ "settings": {
+  "message": "Ayarlar"
+ },
+ "modeLabel": {
+  "message": "İşlem"
+ },
+ "modeSummary": {
+  "message": "Kısa özet"
+ },
+ "modeBullets": {
+  "message": "Madde madde"
+ },
+ "modeSimple": {
+  "message": "Basitçe anlat"
+ },
+ "modeTranslate": {
+  "message": "Çevir"
+ },
+ "run": {
+  "message": "Sayfayı özetle"
+ },
+ "stop": {
+  "message": "Durdur"
+ },
+ "copy": {
+  "message": "Kopyala"
+ },
+ "support": {
+  "message": "☕ Destek ol"
+ },
+ "noAccess": {
+  "message": "Bu sekmeyi okuma izni yok. Eklenti simgesine (ya da Alt+S) tıkla; sayfa okunup özetlenir."
+ },
+ "tabNotFound": {
+  "message": "Aktif sekme bulunamadı."
+ },
+ "pickModel": {
+  "message": "Önce Ayarlar'dan bir model seç."
+ },
+ "readingPage": {
+  "message": "Sayfa okunuyor…"
+ },
+ "notEnoughText": {
+  "message": "Özetlenecek yeterli metin bulunamadı."
+ },
+ "longText": {
+  "message": "Metin uzun, ilk bölümü işleniyor…"
+ },
+ "modelReplying": {
+  "message": "Model yanıt veriyor…"
+ },
+ "done": {
+  "message": "Bitti."
+ },
+ "doneCut": {
+  "message": "Bitti (uzun metnin yalnızca ilk bölümü özetlendi)."
+ },
+ "stopped": {
+  "message": "Durduruldu."
+ },
+ "copied": {
+  "message": "Kopyalandı."
+ },
+ "unreachable": {
+  "message": "Sunucuya ulaşılamadı. Adresi ve izni Ayarlar'dan kontrol et."
+ },
+ "optTitle": {
+  "message": "Sunucu ayarları"
+ },
+ "optPreset": {
+  "message": "Hazır ayar"
+ },
+ "presetNone": {
+  "message": "Seç (isteğe bağlı)"
+ },
+ "presetOvh": {
+  "message": "OVHcloud (anahtarsız, ücretsiz)"
+ },
+ "presetOllama": {
+  "message": "Yerel Ollama"
+ },
+ "optProvider": {
+  "message": "Sunucu türü"
+ },
+ "providerOpenai": {
+  "message": "OpenAI uyumlu (vLLM, LM Studio, llama.cpp, LiteLLM…)"
+ },
+ "optUrl": {
+  "message": "Sunucu adresi"
+ },
+ "urlHint": {
+  "message": "Örnek: https://llm.ornek.com veya Tailscale gibi bir VPN adresi. Ollama'yı doğrudan internete açma."
+ },
+ "optKey": {
+  "message": "API anahtarı (isteğe bağlı)"
+ },
+ "optModel": {
+  "message": "Model"
+ },
+ "loadModels": {
+  "message": "Modelleri getir"
+ },
+ "optLang": {
+  "message": "Çıktı dili (boş = tarayıcı dili)"
+ },
+ "save": {
+  "message": "Kaydet ve test et"
+ },
+ "supportTitle": {
+  "message": "Destek ol"
+ },
+ "supportText": {
+  "message": "Ücretsiz ve reklamsız. İşine yaradıysa gönüllü destek verebilirsin; hiçbir özellik buna bağlı değil."
+ },
+ "privacyHint": {
+  "message": "Sayfa içerikleri yalnızca yukarıda girdiğin sunucuya gönderilir. Başka hiçbir yere veri gitmez."
+ },
+ "badUrl": {
+  "message": "Geçerli bir adres gir (http:// veya https:// ile başlamalı)."
+ },
+ "noPermission": {
+  "message": "Bu adrese erişim izni verilmedi."
+ },
+ "connecting": {
+  "message": "Bağlanılıyor…"
+ },
+ "savedFound": {
+  "message": "Kaydedildi. $COUNT$ model bulundu.",
+  "placeholders": {
+   "count": {
+    "content": "$1"
+   }
+  }
+ },
+ "foundPick": {
+  "message": "$COUNT$ model bulundu. Birini seçip Kaydet'e bas.",
+  "placeholders": {
+   "count": {
+    "content": "$1"
+   }
+  }
+ },
+ "unreachableOpt": {
+  "message": "Sunucuya ulaşılamadı. Adres, ağ ve HTTPS/sertifika durumunu kontrol et."
+ },
+ "presetFilled": {
+  "message": "Adres dolduruldu. API anahtarını yapıştırıp Modelleri getir'e bas."
+ },
+ "presetFilledNoKey": {
+  "message": "Adres dolduruldu. Anahtar gerekmez, Modelleri getir'e bas."
+ },
+ "err401": {
+  "message": "Yetkisiz (401): API anahtarı yanlış ya da eksik."
+ },
+ "err403": {
+  "message": "Erişim reddedildi (403): anahtarı, bölgeyi ya da sunucu ayarını kontrol et."
+ },
+ "err404": {
+  "message": "Bulunamadı (404): adres ya da model adı yanlış olabilir."
+ },
+ "err429": {
+  "message": "İstek sınırı doldu (429): biraz bekle ya da başka model/sağlayıcı dene."
+ },
+ "errServer": {
+  "message": "Sunucu hatası: HTTP $CODE$",
+  "placeholders": {
+   "code": {
+    "content": "$1"
+   }
+  }
+ }
+}

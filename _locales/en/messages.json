@@ -1,0 +1,197 @@
+{
+ "extName": {
+  "message": "LLM Summarizer"
+ },
+ "extDescription": {
+  "message": "Summarize pages and selected text with your own local or remote LLM (Ollama, OpenAI-compatible). No account, no tracking."
+ },
+ "actionTitle": {
+  "message": "Summarize page"
+ },
+ "menuSummary": {
+  "message": "Summarize selection"
+ },
+ "menuSimple": {
+  "message": "Explain selection simply"
+ },
+ "menuTranslate": {
+  "message": "Translate selection"
+ },
+ "errCantRead": {
+  "message": "Can't read this page (chrome:// pages, the Web Store and the PDF viewer can't be read)."
+ },
+ "panelTitle": {
+  "message": "Summarizer"
+ },
+ "settings": {
+  "message": "Settings"
+ },
+ "modeLabel": {
+  "message": "Action"
+ },
+ "modeSummary": {
+  "message": "Short summary"
+ },
+ "modeBullets": {
+  "message": "Bullet points"
+ },
+ "modeSimple": {
+  "message": "Explain simply"
+ },
+ "modeTranslate": {
+  "message": "Translate"
+ },
+ "run": {
+  "message": "Summarize page"
+ },
+ "stop": {
+  "message": "Stop"
+ },
+ "copy": {
+  "message": "Copy"
+ },
+ "support": {
+  "message": "☕ Support"
+ },
+ "noAccess": {
+  "message": "No permission to read this tab. Click the extension icon (or press Alt+S) and the page will be read and summarized."
+ },
+ "tabNotFound": {
+  "message": "No active tab found."
+ },
+ "pickModel": {
+  "message": "Choose a model in Settings first."
+ },
+ "readingPage": {
+  "message": "Reading page…"
+ },
+ "notEnoughText": {
+  "message": "Not enough text to summarize."
+ },
+ "longText": {
+  "message": "The text is long; processing the first part…"
+ },
+ "modelReplying": {
+  "message": "The model is responding…"
+ },
+ "done": {
+  "message": "Done."
+ },
+ "doneCut": {
+  "message": "Done (only the first part of the long text was summarized)."
+ },
+ "stopped": {
+  "message": "Stopped."
+ },
+ "copied": {
+  "message": "Copied."
+ },
+ "unreachable": {
+  "message": "Can't reach the server. Check the address and permission in Settings."
+ },
+ "optTitle": {
+  "message": "Server settings"
+ },
+ "optPreset": {
+  "message": "Preset"
+ },
+ "presetNone": {
+  "message": "Choose (optional)"
+ },
+ "presetOvh": {
+  "message": "OVHcloud (no API key, free)"
+ },
+ "presetOllama": {
+  "message": "Local Ollama"
+ },
+ "optProvider": {
+  "message": "Server type"
+ },
+ "providerOpenai": {
+  "message": "OpenAI-compatible (vLLM, LM Studio, llama.cpp, LiteLLM…)"
+ },
+ "optUrl": {
+  "message": "Server address"
+ },
+ "urlHint": {
+  "message": "Example: https://llm.example.com or a VPN address such as Tailscale. Don't expose Ollama directly to the internet."
+ },
+ "optKey": {
+  "message": "API key (optional)"
+ },
+ "optModel": {
+  "message": "Model"
+ },
+ "loadModels": {
+  "message": "Load models"
+ },
+ "optLang": {
+  "message": "Output language (empty = browser language)"
+ },
+ "save": {
+  "message": "Save and test"
+ },
+ "supportTitle": {
+  "message": "Support"
+ },
+ "supportText": {
+  "message": "Free and ad-free. If it helps you, you can support it voluntarily; no feature depends on it."
+ },
+ "privacyHint": {
+  "message": "Page content is sent only to the server you enter above. Nothing is sent anywhere else."
+ },
+ "badUrl": {
+  "message": "Enter a valid address (it must start with http:// or https://)."
+ },
+ "noPermission": {
+  "message": "Access to this address was not granted."
+ },
+ "connecting": {
+  "message": "Connecting…"
+ },
+ "savedFound": {
+  "message": "Saved. $COUNT$ models found.",
+  "placeholders": {
+   "count": {
+    "content": "$1"
+   }
+  }
+ },
+ "foundPick": {
+  "message": "$COUNT$ models found. Pick one and press Save.",
+  "placeholders": {
+   "count": {
+    "content": "$1"
+   }
+  }
+ },
+ "unreachableOpt": {
+  "message": "Can't reach the server. Check the address, network and HTTPS/certificate."
+ },
+ "presetFilled": {
+  "message": "Address filled in. Paste your API key, then press Load models."
+ },
+ "presetFilledNoKey": {
+  "message": "Address filled in. No key needed; press Load models."
+ },
+ "err401": {
+  "message": "Unauthorized (401): the API key is wrong or missing."
+ },
+ "err403": {
+  "message": "Access denied (403): check the key, region or server settings."
+ },
+ "err404": {
+  "message": "Not found (404): the address or model name may be wrong."
+ },
+ "err429": {
+  "message": "Rate limit reached (429): wait a bit or try another model or provider."
+ },
+ "errServer": {
+  "message": "Server error: HTTP $CODE$",
+  "placeholders": {
+   "code": {
+    "content": "$1"
+   }
+  }
+ }
+}

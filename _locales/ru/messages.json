@@ -1,0 +1,197 @@
+{
+ "extName": {
+  "message": "LLM-суммаризатор"
+ },
+ "extDescription": {
+  "message": "Резюме страниц и выделенного текста через вашу локальную или удалённую LLM (Ollama, OpenAI-совместимые). Без аккаунта и слежки."
+ },
+ "actionTitle": {
+  "message": "Кратко изложить страницу"
+ },
+ "menuSummary": {
+  "message": "Кратко изложить выделенное"
+ },
+ "menuSimple": {
+  "message": "Объяснить выделенное простыми словами"
+ },
+ "menuTranslate": {
+  "message": "Перевести выделенное"
+ },
+ "errCantRead": {
+  "message": "Не удаётся прочитать эту страницу (страницы chrome://, Web Store и просмотрщик PDF недоступны)."
+ },
+ "panelTitle": {
+  "message": "Суммаризатор"
+ },
+ "settings": {
+  "message": "Настройки"
+ },
+ "modeLabel": {
+  "message": "Действие"
+ },
+ "modeSummary": {
+  "message": "Краткое резюме"
+ },
+ "modeBullets": {
+  "message": "По пунктам"
+ },
+ "modeSimple": {
+  "message": "Простыми словами"
+ },
+ "modeTranslate": {
+  "message": "Перевести"
+ },
+ "run": {
+  "message": "Резюмировать страницу"
+ },
+ "stop": {
+  "message": "Стоп"
+ },
+ "copy": {
+  "message": "Копировать"
+ },
+ "support": {
+  "message": "☕ Поддержать"
+ },
+ "noAccess": {
+  "message": "Нет разрешения на чтение этой вкладки. Нажмите на значок расширения (или Alt+S) — страница будет прочитана и обобщена."
+ },
+ "tabNotFound": {
+  "message": "Активная вкладка не найдена."
+ },
+ "pickModel": {
+  "message": "Сначала выберите модель в настройках."
+ },
+ "readingPage": {
+  "message": "Чтение страницы…"
+ },
+ "notEnoughText": {
+  "message": "Недостаточно текста для резюме."
+ },
+ "longText": {
+  "message": "Текст длинный; обрабатывается первая часть…"
+ },
+ "modelReplying": {
+  "message": "Модель отвечает…"
+ },
+ "done": {
+  "message": "Готово."
+ },
+ "doneCut": {
+  "message": "Готово (обобщена только первая часть длинного текста)."
+ },
+ "stopped": {
+  "message": "Остановлено."
+ },
+ "copied": {
+  "message": "Скопировано."
+ },
+ "unreachable": {
+  "message": "Сервер недоступен. Проверьте адрес и разрешение в настройках."
+ },
+ "optTitle": {
+  "message": "Настройки сервера"
+ },
+ "optPreset": {
+  "message": "Шаблон"
+ },
+ "presetNone": {
+  "message": "Выбрать (необязательно)"
+ },
+ "presetOvh": {
+  "message": "OVHcloud (без ключа API, бесплатно)"
+ },
+ "presetOllama": {
+  "message": "Локальная Ollama"
+ },
+ "optProvider": {
+  "message": "Тип сервера"
+ },
+ "providerOpenai": {
+  "message": "OpenAI-совместимый (vLLM, LM Studio, llama.cpp, LiteLLM…)"
+ },
+ "optUrl": {
+  "message": "Адрес сервера"
+ },
+ "urlHint": {
+  "message": "Пример: https://llm.example.com или адрес VPN, например Tailscale. Не открывайте Ollama напрямую в интернет."
+ },
+ "optKey": {
+  "message": "Ключ API (необязательно)"
+ },
+ "optModel": {
+  "message": "Модель"
+ },
+ "loadModels": {
+  "message": "Загрузить модели"
+ },
+ "optLang": {
+  "message": "Язык ответа (пусто = язык браузера)"
+ },
+ "save": {
+  "message": "Сохранить и проверить"
+ },
+ "supportTitle": {
+  "message": "Поддержка"
+ },
+ "supportText": {
+  "message": "Бесплатно и без рекламы. Если расширение полезно, можете поддержать добровольно; никакие функции от этого не зависят."
+ },
+ "privacyHint": {
+  "message": "Содержимое страниц отправляется только на указанный выше сервер. Больше никуда ничего не отправляется."
+ },
+ "badUrl": {
+  "message": "Введите корректный адрес (должен начинаться с http:// или https://)."
+ },
+ "noPermission": {
+  "message": "Доступ к этому адресу не предоставлен."
+ },
+ "connecting": {
+  "message": "Подключение…"
+ },
+ "savedFound": {
+  "message": "Сохранено. Найдено моделей: $COUNT$.",
+  "placeholders": {
+   "count": {
+    "content": "$1"
+   }
+  }
+ },
+ "foundPick": {
+  "message": "Найдено моделей: $COUNT$. Выберите одну и нажмите «Сохранить».",
+  "placeholders": {
+   "count": {
+    "content": "$1"
+   }
+  }
+ },
+ "unreachableOpt": {
+  "message": "Сервер недоступен. Проверьте адрес, сеть и HTTPS/сертификат."
+ },
+ "presetFilled": {
+  "message": "Адрес заполнен. Вставьте ключ API и нажмите «Загрузить модели»."
+ },
+ "presetFilledNoKey": {
+  "message": "Адрес заполнен. Ключ не нужен; нажмите «Загрузить модели»."
+ },
+ "err401": {
+  "message": "Не авторизован (401): ключ API неверен или отсутствует."
+ },
+ "err403": {
+  "message": "Доступ запрещён (403): проверьте ключ, регион или настройки сервера."
+ },
+ "err404": {
+  "message": "Не найдено (404): возможно, неверен адрес или имя модели."
+ },
+ "err429": {
+  "message": "Достигнут лимит запросов (429): подождите или попробуйте другую модель или провайдера."
+ },
+ "errServer": {
+  "message": "Ошибка сервера: HTTP $CODE$",
+  "placeholders": {
+   "code": {
+    "content": "$1"
+   }
+  }
+ }
+}

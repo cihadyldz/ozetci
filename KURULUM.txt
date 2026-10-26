@@ -1,0 +1,4 @@
+1) Bu klasörü bir yere çıkar (zip'ten çıkarılmış hâli kalmalı).
+2) Chrome'da chrome://extensions adresini aç, sağ üstten "Geliştirici modu"nu aç.
+3) "Paketlenmemiş öğe yükle"ye tıkla ve bu klasörü seç.
+4) Eklenti simgesine tıkla -> yan panel açılır -> Ayarlar'dan sunucu adresini gir.

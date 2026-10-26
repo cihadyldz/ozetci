@@ -1,0 +1,23 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="style.css"><title></title></head>
+<body>
+<header>
+  <h1 data-i18n="panelTitle"></h1>
+  <a href="#" id="settings" data-i18n="settings"></a>
+</header>
+<div class="bar">
+  <select id="mode" data-i18n-aria="modeLabel">
+    <option value="summary" data-i18n="modeSummary"></option>
+    <option value="bullets" data-i18n="modeBullets"></option>
+    <option value="simple" data-i18n="modeSimple"></option>
+    <option value="translate" data-i18n="modeTranslate"></option>
+  </select>
+  <button id="run" class="primary" data-i18n="run"></button>
+  <button id="stop" hidden data-i18n="stop"></button>
+</div>
+<p id="status" role="status"></p>
+<main id="out" aria-live="polite"></main>
+<footer><button id="copy" hidden data-i18n="copy"></button><a class="support" href="https://buymeacoffee.com/cihad.yildiz" target="_blank" rel="noopener noreferrer" data-i18n="support"></a></footer>
+<script type="module" src="sidepanel.js"></script>
+</body></html>
